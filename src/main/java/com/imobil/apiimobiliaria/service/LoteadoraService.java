@@ -16,8 +16,7 @@ public class LoteadoraService {
        return loteadoraRepository.save(loteadora);    
     }
 
-    public Loteadora alterar(Loteadora loteadora){
-     
+    public Loteadora alterar(Loteadora loteadora){     
         return loteadoraRepository.save(loteadora);    
      }
 

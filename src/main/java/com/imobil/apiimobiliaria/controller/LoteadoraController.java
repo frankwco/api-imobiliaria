@@ -19,7 +19,6 @@ public class LoteadoraController {
 
     @PostMapping("/")
     public ResponseEntity<Loteadora> salvar(@RequestBody Loteadora loteadora){
-        System.out.println(loteadora.getNomeFantasia());
        return ResponseEntity.ok().body(loteadoraService.salvar(loteadora));
     }
 }
